@@ -1,10 +1,11 @@
 import kaggle
 import pandas as pd
+import os
 
 kaggle.api.authenticate()
+
 kaggle.api.dataset_download_files('paradisejoy/top-hits-spotify-from-20002019', path='.', unzip=True)
+os.rename("songs_normalize.csv","SpotifySubset.csv")
 
-df_kaggle = pd.read_csv("songs_normalize.csv")
-df_huggingface = pd.read_csv("hf://datasets/maharshipandya/spotify-tracks-dataset/dataset.csv")
-
-df_huggingface.to_csv("huggingface_songs.csv")
+kaggle.api.dataset_download_files("sansastark/subset-of-the-million-song-dataset", path='.', unzip=True)
+os.remove("billboard_rank.csv")
