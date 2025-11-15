@@ -3,6 +3,6 @@ The pre pivot code file shows that we were unable to use our initially proposed 
 
 New datasets: 
 
-Spotify: https://www.kaggle.com/datasets/paradisejoy/top-hits-spotify-from-20002019/data
+Spotify: https://huggingface.co/datasets/maharshipandya/spotify-tracks-dataset/viewer/default/train?p=1139&views%5B%5D=train
 
 Million Song Dataset: https://www.kaggle.com/datasets/sansastark/subset-of-the-million-song-dataset
