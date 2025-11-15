@@ -45,3 +45,8 @@ The following tasks still to be completed:
 - **Week 16 (December 8 - 10):** These final few days will provide us the time needed to evaluate the reproducibility and transparency of our project as well as the metadata and data documentation. We will make any necessary adjustments and/or additions. We will then also finalize the other written sections of our final report, at which point our project will be complete. 
 
 ## **Contribution Summary**
+
+#### Dan Feder:
+Thus far, a large part of my focus has been on the data collection and acquisition process. Once Zach found the datasets we wanted to use for this new pivot on the project, I worked on locating the origin of these datasets and then researching how to best acquire the data. We decided to look for a different second music dataset that didn’t originate from the Spotify API, at which point I conducted the research to identify and acquire this second dataset. I reviewed the original sources of these datasets to ensure that we were allowed to use them. From there I wrote a script to automatically download the csv files directly from Kaggle and HuggingFace to enhance reproducibility. 
+
+Regarding the project plan and status report, I developed the initial timeline for our first project focus, and then also created the revised timeline for our new project focus. I also wrote the updates on each of the tasks for this status report, and outlined our new datasets under the changes to our project plan section. 
