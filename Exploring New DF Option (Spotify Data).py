@@ -8,19 +8,23 @@ Original file is located at
 """
 
 import pandas as pd
+import kaggle
+import os 
 
 df1 = pd.read_csv("hf://datasets/maharshipandya/spotify-tracks-dataset/dataset.csv")
 len(df1)
 
-df2 = pd.read_csv('songs_normalize.csv')
-len(df2)
+kaggle.api.authenticate()
+kaggle.api.dataset_download_files("sansastark/subset-of-the-million-song-dataset", path='.', unzip=True)
+os.remove("billboard_rank.csv")
+df2 = pd.read_csv("MillionSongSubset.csv")
 
 # Standardize name columns
 df1['track_name_clean'] = df1['track_name'].str.lower().str.strip()
 df1['artist_clean'] = df1['artists'].str.lower().str.strip()
 
-df2['song_clean'] = df2['song'].str.lower().str.strip()
-df2['artist_clean'] = df2['artist'].str.lower().str.strip()
+df2['song_clean'] = df2['Title'].str.lower().str.strip()
+df2['artist_clean'] = df2['ArtistName'].str.lower().str.strip()
 
 merged_exact = df1.merge(
     df2,
@@ -29,11 +33,7 @@ merged_exact = df1.merge(
     how='inner'
 )
 
-len(merged_exact)
+print(len(merged_exact))
 
-merged_exact.columns
-
-merged_exact['popularity_x']
-
-merged_exact['popularity_y']
+print(merged_exact.columns)
 
