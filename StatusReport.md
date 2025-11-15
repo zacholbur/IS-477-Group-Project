@@ -21,7 +21,7 @@ Due to time spent changing our datasets and developing a new research question a
 
 **Ethical data handling:** Given that our two datasets are from third party sites, Kaggle and HuggingFace, we reviewed the original sources and the related terms of services. We determined that we were permitted to use the relevant data. Our next step with this task will be to detail these findings in a document and outline any other ethical data handling considerations and concerns.
 
-**Data collection** and acquisition: We have successfully acquired the data and have created a script to download the data in an automated fashion. The relevant script is “aquisiton.py”, and the resulting csv files can be found in the data folder of our repository. The final step for this task will be to use hashing to ensure the integrity of the data after it is acquired. 
+**Data collection and acquisition:** We have successfully acquired the data and have created a script to download the data in an automated fashion. The relevant script is “aquisiton.py”, and the resulting csv files can be found in the data folder of our repository. The final step for this task will be to use hashing to ensure the integrity of the data after it is acquired. 
 
 **Storage and organization:** We have determined that our data best lends itself towards being stored in a csv within a file system. Our next step for this task will be to more clearly document our rationale behind this and outline our storage structure. 
 Data integration: We have conducted a proof of concept for data integration, which can be found at add github location. The full scale data integration will need to be completed still (see timeline for more information).
