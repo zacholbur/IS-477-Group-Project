@@ -10,7 +10,7 @@ As is demonstrated in the detailed description below, we have emphasized choosin
 Below please find a detailed explanation of our file system:
 
 #### Root Directory:
-The root directory of our repository contains key files, including our project plan, status report, and final report markdown files, as well as a README file providing key summary information regarding our repository.
+The root directory of our repository contains key files, including our project plan, status report, and a README file (which is our project report).
 
 In addition to these files, our root directory includes five folders: workflow, data, results, scripts, and previous stages. Each folder will be described in detail below.
 
