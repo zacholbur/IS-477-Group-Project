@@ -6,6 +6,13 @@
 ## Summary
 
 ## Data Profile
+### Dataset Descriptions
+**Spotify Dataset:** Our first dataset includes song information from Spotify. While we pull the information from huggingface, a third party source, the data was originally gathered by the author of the data using the Spotify Web API. Each observation in this dataset represents one track (one song on Spotify). This dataset includes a few different types of information, including the song’s identifying information, audio feature details, and other descriptive information. Identifying information includes fields such as artists, album name, and track name. There are many audio feature details and other descriptive information provided, such as the song’s energy, danceability, loudness, duration, and temp. More information on these fields can be found in the data dictionary provided. Most notably, this dataset also contains the song’s popularity, which is the focus of our research question. There are 114,000 observations in total in this dataset, which are drawn from a wide variety of artists, genres, and popularity levels.
+
+**Million Song Dataset:** Our second dataset includes additional song information. Similarly to the Spotify dataset, this dataset, pulled from Kaggle, a third party source. However the original source of this data is the Million Song Dataset, a dataset created in 2011 by Columbia University’s Laboratory for the Recognition and Organization of Speech and Audio along with The Echo Nest, a music intelligence company. In addition to the full dataset, which contained one million songs, they also released a representative 10,000 song subset of the full dataset. The dataset we use is that 10,000 song subset of the Million Song Dataset. Similarly to the spotify dataset, each observation in this dataset is also a specific track, or instance of a song. The dataset includes identifying information on the songs as well as descriptive information and audio feature details. It contains a lot of similar information to the spotify dataset,including the artist name, album name, song name, song duration, and song temp. However, it also includes a few additional fields that will be valuable during analysis and are not in the spotify dataset, such as artist familiarity and artist hotness (relative buzz surrounding the artist at the time of the dataset’s creation). More information on these fields can be found in the data dictionary provided. This dataset contains 10,000 observations and draws from a variety of artists, genres, and release years.
+
+### Ethical & Legal Considerations
+
 
 ## Data Quality
 ### Quality Analysis Methodology
