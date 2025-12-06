@@ -4,6 +4,21 @@
 - Dan Feder (djfeder2)
 - Zach Olbur (zolbur2)
 ## Summary
+### Project Description
+The aim of our project is to understand how audio data and other descriptive information can provide insight into the popularity of music. In this project we will look at two datasets containing information on specific songs. One dataset focuses on songs gathered using the Spotify Web API and the other is centered around song data from a subset of the Million Song Dataset. To accomplish the aim of our project we take this data through a series of steps, including acquisition, quality assessment, data cleaning, data integration, and finally data analysis. 
+ 
+### Project Motivation
+Through this project, we are seeking to to understand how audio data and descriptive information contribute to the popularity. Specifically, we hope to observe the relationship between different features and song popularity and also identify which factors contribute most heavily to song popularity. We see the results of this project being useful in a couple of ways. To start, these findings could help encourage inspiring musicians to add aspects to their songs that might help them become more popular. Additionally, these findings could provide a framework for labels to evaluate songs by when choosing which artists to sign. Finally, this project could be used as the foundation for developing a platform that recommends songs to listeners based on their preferences.
+
+### Research Questions
+Through this project, we are aiming to answer a two related questions:
+
+Our primary aim is that we want to answer this research question: “Can we use the audio data and descriptive information of a song to predict its popularity? We will train a machine learning model to attempt to answer this question.
+
+We also hope to address this broader research question: “What audio features and descriptive information contribute most strongly to popularity of a song?”. To accomplish this, we will observe the relationships between fields in our dataset, and also analyze the specific details of our trained machine learning model.
+
+### Findings
+
 
 ## Data Profile
 ### Dataset Descriptions
