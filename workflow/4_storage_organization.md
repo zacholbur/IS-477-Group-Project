@@ -10,18 +10,18 @@ As is demonstrated in the detailed description below, we have emphasized choosin
 Below please find a detailed explanation of our file system:
 
 #### Root Directory:
-The root directory of our repository contains key files, including our project plan, status report, and a README file (which is our project report).
+The root directory of our repository contains key files, including our project plan, status report, and a README file (which is our project report). It also contains our requirements.txt file, which specifies the software dependencies related to our project.
 
 In addition to these files, our root directory includes five folders: workflow, data, results, scripts, and previous stages. Each folder will be described in detail below.
 
 #### Workflow 
-Our workflow directory contains detailed information regarding our end-to-end process for carrying out this project. Each artifact in the folder corresponds to a different project requirement and stage of our workflow. As mentioned above, these files have been named to be sorted in order of when they are carried out, from the first step to the last step of our workflow. This folder establishes complete transparency related to our project, as a user can view exactly how we conducted our project at each stage. 
+Our workflow directory contains detailed information regarding our end-to-end process for carrying out this project. Each artifact in the folder corresponds to a different project requirement and stage of our workflow. As mentioned above, these files have been named to be sorted in order of when they are carried out, from the first step to the last step of our workflow. This folder also contains the Snakfile for automation. This folder establishes complete transparency related to our project, as a user can view exactly how we conducted our project at each stage. 
 
 #### Data
-As the name suggests, our data directory contains the relevant data files for our project. This directory is made up of two sub directories, titled raw and processed. “Data/raw” contains our acquired datasets, in the form of two CSV files, one for the Spotify dataset and the other for the Million Song Dataset. Additionally, “Data/raw” contains two textfiles that store the results of our SHA-256 hashing our datasets to serve as a reference to be checked against during when our workflow is reproduced. “Data/processed” contains three CSV files, which contain our cleaned Spotify dataset, cleaned Million Song dataset, and integrated dataset.
+As the name suggests, our data directory contains the relevant data files for our project. This directory is made up of two sub directories, titled raw and processed. “Data/raw” contains our acquired datasets, in the form of two CSV files, one for the Spotify dataset and the other for the Million Song Dataset. Additionally, “Data/raw” contains two textfiles that store the results of our SHA-256 hashing our datasets to serve as a reference to be checked against during when our workflow is reproduced. “Data/processed” contains three CSV files, which contain our cleaned Spotify dataset, cleaned Million Song dataset, and integrated dataset. Additionally, the data directory contains a description and data dictionary for our integrated dataset.
 
 #### Results 
-The results directory contains the results of our data analysis. This is stored in the form of three different jupyter notebooks that display key insights and visualizations from our data analysis.
+The results directory contains the results of our data analysis. This is stored in the form of three vizualtions and two text files. One text file is summary information related to hit songs, and the other is the statsitical results of our model.
 
 #### Scripts 
 The scripts directory contains the python scripts related to each stage of our workflow. The purpose of these scripts is that they are called and run by our snakefile in order to reproduce our workflow in an automated manner.
