@@ -1,0 +1,19 @@
+R² Score: 0.179
+RMSE: 20.007
+
+Feature Importance:
+          feature  importance
+ArtistFamiliarity    0.370665
+          Hotness    0.197537
+      speechiness    0.074197
+              key    0.056177
+ instrumentalness    0.054983
+           energy    0.039470
+         loudness    0.035799
+            tempo    0.035371
+     danceability    0.034069
+     acousticness    0.033048
+          valence    0.032266
+         liveness    0.031083
+             mode    0.005334
+------------------------------
