@@ -18,7 +18,7 @@ Our primary aim is that we want to answer this research question: “Can we use 
 We also hope to address this broader research question: “What audio features and descriptive information contribute most strongly to popularity of a song?”. To accomplish this, we will observe the relationships between fields in our dataset, and also analyze the specific details of our trained machine learning model.
 
 ### Findings
-
+Our analysis revealed several meaningful patterns across the dataset. The first is that musical features like loudness and energy, valence and danceability, and artist familiarity and hotness are highly correlated which helps us interpret later results more accurately. Some visualizations offered limited insight, but our genre analysis clearly showed that soul, piano, emo, and reggae tend to produce more popular tracks. When we compared the top 5% of songs (“hits”) to the rest, we found that higher energy, stronger danceability, and major keys were all commonalities between successful songs. Finally, our regression model achieved an R² of 0.179 which seems realistic since popularity often depends on external social and commercial factors beyond the audio features themselves.
 
 ## Data Profile
 ### Dataset Descriptions
