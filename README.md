@@ -79,14 +79,17 @@ Figure 3: Genre popularity histogram
 This figure is extremely helpful in our analysis as it shows us which genres contribute most to a song’s popularity. We find that soul, piano, emo, and reggae have a high impact on the overall popularity of a track. This helps our research question as we can point aspiring musicians to this graph to show what genres might help them become most popular.
 
 Figure 4: Factors regarding whether a song is a hit or not
+![Hit Or Not](results/hit_summary.txt)
 
 For this figure we identified the top 5 percent of popular songs. Those top 5 percent were the threshold for whether a song is a hit or not. We see that energy and danceability are good factors in whether or not a song will be a hit.
 
 Figure 5: Major vs Minor Songs histogram
+![Genre Popularity](results/genre_popularity.png)
 
 This figure very clearly shows that major songs contribute more to a song being a hit than minor songs.
 
 Figure 6: Model results
+![Genre Popularity](results/genre_popularity.png)
 
 Finally, in reference to our research question: Can we calculate the popularity of a song based on factors like key signature, tempo, and other relevant variables? When training a regression model to predict popularity from audio features, we achieved an R² of 0.179. While this may seem low at first glance, it is actually consistent with expectations for this type of prediction. Song popularity is influenced by many external factors including marketing, artist visibility, cultural trends, and platform promotion that are not captured in the audio features alone. As a result, we should not expect acoustic attributes to fully explain popularity.
 
