@@ -105,7 +105,7 @@ Overall, this project has a lot of potential and is definitely something that sh
 
 ## Reproducing
 ### Location of Relevant Items
-**Results Reproduction:** In the workflow directory, there is a notebook titled “reproducing.ipynb”. To reproduce our results, users should navigate to that notebook. This notebook is sufficient for reproducing our results. The notebook interacts with the following items.
+**Results Reproduction:** In the workflow directory, there is a notebook titled automated reproducing. To reproduce our results, users should navigate to that notebook. This notebook is sufficient for reproducing our results. The notebook interacts with the following items.
 
 **Scripts:** The scripts folder contains all of the python scripts called during our automated reproduction of our workflow.
 
@@ -116,7 +116,7 @@ Overall, this project has a lot of potential and is definitely something that sh
 **Results:** Our results can be found at this [link](https://uofi.box.com/s/3xwnbbr2sybu0wjdhbgxqfzz4rng4ba8). Additionally, results are stored in the results folder out of our repository. 
 
 ### Reproduction Instructions
-As stated above, to reproduce our results, users should navigate to  “workflow/reproducing.ipynb” and carry out the follow steps:
+As stated above, to reproduce our results, users should navigate to  “workflow/7_automated_reproducing.ipynb” and carry out the follow steps:
 
 1.  Optional: Run "Install Snakemake" Cell: If you do not have snakemake installed yet, run this code block in order to install it.
 2. Run "Test Reproduce" Cell: This code cell is designed to run the Snakefile and confirm that it is working before delete all the files. To complete this step, you will need to obtain and enter a Kaggle API token. Below these steps are instructions for how to do that. When you run the cell, ensure that you are getting the output "Nothing to be done (all requested files are present and up to date)" before moving forward. 
@@ -133,7 +133,7 @@ Kaggle API Setup Instructions:
 7. Paste your username in the cell below where it says "enter_username_here", again surrounded by quotes. Your username can be seen in the top right corner on the Kaggle settings page.
 8. With the token and username entered, run the code cell below. Now, you should be ready to use the Kaggle API
 
-All of this information is contained in “reproducing.ipynb”. If for any reason this process fails, there is a secondary method of partial reproduction placed in the notebook.
+All of this information is contained in “workflow/automated_reproducing.ipynb”. If for any reason this process fails, there is a secondary method of partial reproduction placed in the notebook.
 
 ## References
 
