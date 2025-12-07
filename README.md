@@ -115,7 +115,7 @@ Overall, this project has a lot of potential and is definitely something that sh
 
 **Software Dependencies:** There is a requirements.txt file in our root directory that contains all software dependencies. This requirements.txt file is called on during our automated workflow.
 
-**Results:** Our results can be found at this [link](https://uofi.box.com/s/3xwnbbr2sybu0wjdhbgxqfzz4rng4ba8). Additionally, results are stored in the results folder out of our repository. 
+**Results:** Our results can be found at this [link](https://uofi.box.com/s/3xwnbbr2sybu0wjdhbgxqfzz4rng4ba8). Additionally, results are stored in the results folder out of our repository in the event users are unable to obtian them via the link. Once obtained using the link, please remove the files currently in the results folder and replace them with the results from the link.
 
 ### Reproduction Instructions
 As stated above, to reproduce our results, users should navigate to  “workflow/7_automated_reproducing.ipynb” and carry out the follow steps:
