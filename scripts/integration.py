@@ -1,7 +1,7 @@
 import pandas as pd 
 import recordlinkage as rl
-df_spotify = pd.read_csv("../data/processed/SpotifyCleaned.csv", index_col=0)
-df_million_song = pd.read_csv("../data/processed/MillionSongCleaned.csv", index_col=0)
+df_spotify = pd.read_csv("data/processed/SpotifyCleaned.csv", index_col=0)
+df_million_song = pd.read_csv("data/processed/MillionSongCleaned.csv", index_col=0)
 
 df_exact_join = pd.merge(
     df_spotify,
@@ -86,4 +86,4 @@ df_approx_matches.columns = ['track_id', 'artists',
        'Hotness', 'end_of_fade_in', 'start_of_fade_out']
 
 df_integreated = pd.concat([df_exact_join, df_approx_matches], ignore_index=True)
-df_integreated.to_csv("../data/processed/Integrated.csv")
+df_integreated.to_csv("data/processed/Integrated.csv")
