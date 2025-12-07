@@ -111,7 +111,7 @@ Overall, this project has a lot of potential and is definitely something that sh
 
 **Scripts:** The scripts folder contains all of the python scripts called during our automated reproduction of our workflow.
 
-**Raw Data Files:** Our data is collected programmatically using the Kaggle API for the Million Song dataset. The Spotify dataset is also aquried programatically from huggingface using pandas. The primary source of the Spotify data is the Spotify Web API. Additionally, both raw data CSVs can be found in the data/raw directory of our repository, but will not be carried over when attemping to reproduce since they have been placed in the .gitignore.
+**Raw Data Files:** Our data is collected programmatically using the Kaggle API for the Million Song dataset. The Spotify dataset is also aquried programatically from huggingface using pandas. The primary source of the Spotify data is the Spotify Web API. Additionally, both raw data CSVs can be found in the data/raw directory of our repository.
 
 **Software Dependencies:** There is a requirements.txt file in our root directory that contains all software dependencies. This requirements.txt file is called on during our automated workflow.
 
