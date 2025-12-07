@@ -74,6 +74,8 @@ This figure is less helpful in our analysis. We see a lot more randomness in the
 
 Figure 3: Genre popularity histogram
 
+![Genre Popularity](results/genre_popularity.png)
+
 This figure is extremely helpful in our analysis as it shows us which genres contribute most to a song’s popularity. We find that soul, piano, emo, and reggae have a high impact on the overall popularity of a track. This helps our research question as we can point aspiring musicians to this graph to show what genres might help them become most popular.
 
 Figure 4: Factors regarding whether a song is a hit or not
