@@ -29,7 +29,33 @@ acousticness: Likelihood the track is acoustic (0.0–1.0).
 instrumentalness: Probability the track contains no vocals (0.0–1.0).
 liveness: Detects audience presence; values above 0.8 imply live performance.
 valence: Musical positiveness (0.0 = sad, 1.0 = happy).
-explicit: Indicates whether the track contains explicit content (true/false).
-track_genre: The genre classification of the track (Spotify categories).
-Year: The year the song was released or recorded (MSD; 0 = unknown).
+
+Documentation: 
+Title:Integrated Audio Feature Dataset for Predicting Song Popularity
+
+Description:
+This dataset combines audio-feature data from the Spotify Tracks Dataset (Hugging Face) and a subset of the Million Song Dataset (Kaggle). The integrated dataset was created for an INFO 407 project examining whether song popularity can be predicted from audio characteristics alone. No personal or listener data is included.
+
+Creators:
+Zach Olbur, Dan Feder
+
+Format:
+CSV (primary dataset), PNG (visualizations)
+
+Distributions:
+
+CSV file containing all integrated track-level features
+
+PNG's of exploratory visualizations and other results
+
+Source Datasets:
+
+Hugging Face. (2025). Spotify Tracks Dataset [Data set]. https://huggingface.co/datasets/maharshipandya/spotify-tracks-dataset
+
+
+Kaggle. (2022). Million Song Dataset (subset) [Data set]
+https://www.kaggle.com/datasets/sansastark/subset-of-the-million-song-dataset
+
+Rights:
+The dataset contains no personal data. It includes only audio-derived features and track metadata and complies with licensing for academic reuse.
 
