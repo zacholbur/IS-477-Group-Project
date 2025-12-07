@@ -1,0 +1,11 @@
+Hit vs Non-Hit Summary Statistics:
+is_hit                 False       True 
+energy              0.699484    0.719429
+danceability        0.543008    0.647571
+loudness           -7.998722   -7.707286
+tempo             122.395071  109.360714
+acousticness        0.218661    0.154913
+instrumentalness    0.117884    0.014248
+liveness            0.242341    0.102843
+valence             0.537763    0.529000
+speechiness         0.093163    0.066443
