@@ -136,8 +136,11 @@ Kaggle API Setup Instructions:
 All of this information is contained in “reproducing.ipynb”. If for any reason this process fails, there is a secondary method of partial reproduction placed in the notebook.
 
 ## References
-Hugging Face. (2025). Spotify Tracks Dataset [Data set]. https://huggingface.co/datasets/maharshipandya/spotify-tracks-dataset
-
+Hugging Face. (2025). Spotify Tracks Dataset [Data set]. 
+https://huggingface.co/datasets/maharshipandya/spotify-tracks-dataset
 
 Kaggle. (2022). Million Song Dataset (subset) [Data set]
 https://www.kaggle.com/datasets/sansastark/subset-of-the-million-song-dataset
+
+Spotify AB. (2025, May 15). Spotify Developer Terms.
+https://developer.spotify.com/terms
