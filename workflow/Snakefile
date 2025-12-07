@@ -1,0 +1,61 @@
+import sys
+
+PYTHON = sys.executable
+
+rule run_all:
+    input:
+        "results/correlation_heatmap.png",
+        "results/genre_popularity.png",
+        "results/hit_summary.txt",
+        "results/mode_popularity.png",
+        "results/model_stats.txt",
+        "results/popularity_scatter.png"
+
+rule install_requirements:
+    input:
+        "requirements.txt"
+    output:
+        touch("data/requirements.installed")
+    shell:
+        '"{PYTHON}" -m pip install -r {input}'
+
+rule acquisiton:
+    input:
+        "data/requirements.installed"
+    output:
+        "data/raw/SpotifyRaw.csv",
+        "data/raw/MillionSongRaw.csv"
+    shell:
+        '"{PYTHON}" scripts/acquisition.py'
+
+rule cleaning:
+    input:
+        "data/raw/SpotifyRaw.csv",
+        "data/raw/MillionSongRaw.csv"
+    output:
+        "data/processed/SpotifyCleaned.csv",
+        "data/processed/MillionSongCleaned.csv"
+    shell:
+        '"{PYTHON}" scripts/cleaning.py'
+
+rule integration:
+    input:
+        "data/processed/SpotifyCleaned.csv",
+        "data/processed/MillionSongCleaned.csv"
+    output:
+        "data/processed/Integrated.csv"
+    shell:
+        '"{PYTHON}" scripts/integration.py'
+
+rule analysis:
+    input:
+        "data/processed/Integrated.csv"
+    output:
+        "results/correlation_heatmap.png",
+        "results/genre_popularity.png",
+        "results/hit_summary.txt",
+        "results/mode_popularity.png",
+        "results/model_stats.txt",
+        "results/popularity_scatter.png"
+    shell:
+        '"{PYTHON}" scripts/analysis.py'
