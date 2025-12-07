@@ -1,0 +1,35 @@
+Dictionary
+track_id / SongID: Unique identifier for the track (Spotify or MSD).
+SongNumber: Index number for MSD entries.
+Title / track_name: Name of the track.
+AlbumID: Unique identifier for the album (MSD).
+album_name: Name of the album on which the track appears.
+ArtistID: Unique identifier for the performing artist.
+artists / ArtistName: Name(s) of the artist(s) who performed the track.
+mbID: MusicBrainz ID linking the track to external metadata.
+popularity: A value between 0–100 measuring how frequently and recently a track has been streamed.
+ArtistFamiliarity: A measure (0.0–1.0) estimating how well-known the artist is.
+Hotness: A score capturing an artist or song’s cultural momentum or relevance.
+duration_ms: The track length in milliseconds (Spotify).
+Duration: Track length in seconds (MSD).
+end_of_fade_in: Time (in seconds) when the fade-in section ends.
+start_of_fade_out: Time (in seconds) when the fade-out begins.
+key / KeySignature: The musical key using Pitch Class notation (0 = C, …, 11 = B).
+keyConfidence / KeySignatureConfidence: Confidence (0.0–1.0) in key detection.
+mode: Indicates major (1) or minor (0).
+mode_confidence: Confidence score (0.0–1.0) for mode detection.
+tempo: Estimated tempo in beats per minute (BPM).
+TimeSignature: Estimated time signature, encoded as an integer (typically 3–7).
+TimeSignatureConfidence: Confidence score (0.0–1.0) for time signature detection.
+danceability: Describes how suitable a track is for dancing (0.0 = least, 1.0 = most).
+energy: Perceptual intensity and activity of the track (0.0–1.0).
+loudness / Loudness: Overall loudness level in decibels (dB).
+speechiness: Measures presence of spoken words (0.0–1.0).
+acousticness: Likelihood the track is acoustic (0.0–1.0).
+instrumentalness: Probability the track contains no vocals (0.0–1.0).
+liveness: Detects audience presence; values above 0.8 imply live performance.
+valence: Musical positiveness (0.0 = sad, 1.0 = happy).
+explicit: Indicates whether the track contains explicit content (true/false).
+track_genre: The genre classification of the track (Spotify categories).
+Year: The year the song was released or recorded (MSD; 0 = unknown).
+
