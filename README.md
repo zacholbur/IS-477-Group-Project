@@ -1,4 +1,4 @@
-# Project Report: Title
+# Project Title
 
 ## Contributors
 - Dan Feder (djfeder2)
