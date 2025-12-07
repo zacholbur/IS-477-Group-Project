@@ -63,6 +63,7 @@ Overall, the general theme that emerged from our data quality assessment is that
 
 ## Findings
 Figure 1: A correlation heatmap
+![Heat Map](results/correlation_heatmap.png)
 
 This figure helps us understand the correlation between all of the relevant musical features from our dataset. As we can see from this figure, loudness and energy are highly correlated, valence (happiness or sadness) and danceability are highly correlated and liveness and speechiness are highly correlated. Artist familiarity and hotness are also highly correlated. Understanding these correlations helps us read the rest of our results in a smarter way. Seeing that features like loudness and energy or valence and danceability move together suggests they’re capturing similar musical qualities. Knowing this early on lets us avoid redundant features in our models and focus on the variables that actually add new information when we try to predict song popularity.
 
