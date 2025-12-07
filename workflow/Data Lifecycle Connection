@@ -1,5 +1,13 @@
 Data One Data Lifecycle:
 
-Our overall project is related to this lifecycle in many ways. First of all, we were able to formulate our plan using the lesson requirements as well as our proposal and status report assignments. In these we were able to lay out the timeline for our project as well as techniques we would use for analysis. Here we also were able to outline our collection techniques and defined our two datasets from the spotify api that we would be collecting our information from. We did the assure portion through data cleaning as well as description techniques to understand null variables as well as variables that didn’t make sense (i.e The year column having some missing years or the popularity index being inaccurate for certain songs. We preserved our data through one large .py file that can be run by anyone and also did data documentation and metadata so anyone can understand it. This goes for discovery too. Data integration was done within our two datasets to obtain more relevant information about hit songs. Finally, we analyzed all the relevant information to help answer our research question: Can we calculate the popularity of a song based on factors like key signature, tempo, and other relevant variables?
+Our overall project is related to this lifecycle in many ways. First of all, 
+we were able to formulate our plan using the lesson requirements as well as our proposal and status report assignments. 
+In these we were able to lay out the timeline for our project as well as techniques we would use for analysis. 
+Here we also were able to outline our collection techniques and defined our two datasets from the spotify api that we would 
+be collecting our information from. We did the assure portion through data cleaning as well as description techniques to understand 
+null variables as well as variables that didn’t make sense (i.e The year column having some missing years or the popularity index being 
+inaccurate for certain songs. We preserved our data through one large .py file that can be run by anyone and also did data documentation and metadata so anyone can understand it. 
+This goes for discovery too. Data integration was done within our two datasets to obtain more relevant information about hit songs. 
+Finally, we analyzed all the relevant information to help answer our research question: Can we calculate the popularity of a song based on factors like key signature, tempo, and other relevant variables?
 
 
