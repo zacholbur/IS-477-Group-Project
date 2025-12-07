@@ -62,25 +62,27 @@ Overall, the missing values in popularity needed to be addressed in the spotify 
 Overall, the general theme that emerged from our data quality assessment is that each dimension of quality had a few considerations that needed to be addressed. However, we believe that these considerations were addressed properly during the data cleaning, integration, and analysis processes. As a result, we believe we were left with two quality datasets that were fit for use and able to be used for effective analysis.
 
 ## Findings
-Figure 1:
+Figure 1: A correlation heatmap
 
 This figure helps us understand the correlation between all of the relevant musical features from our dataset. As we can see from this figure, loudness and energy are highly correlated, valence (happiness or sadness) and danceability are highly correlated and liveness and speechiness are highly correlated. Artist familiarity and hotness are also highly correlated. Understanding these correlations helps us read the rest of our results in a smarter way. Seeing that features like loudness and energy or valence and danceability move together suggests they’re capturing similar musical qualities. Knowing this early on lets us avoid redundant features in our models and focus on the variables that actually add new information when we try to predict song popularity.
 
-Figure 2:
+Figure 2: Scatterplot relationships between variables
 
 This figure is less helpful in our analysis. We see a lot more randomness in the relationships between the variables. Any conclusions from this figure can only be defined as assumptions or inferences and not fact.
-Figure 3:
+
+Figure 3: Genre popularity histogram
+
 This figure is extremely helpful in our analysis as it shows us which genres contribute most to a song’s popularity. We find that soul, piano, emo, and reggae have a high impact on the overall popularity of a track. This helps our research question as we can point aspiring musicians to this graph to show what genres might help them become most popular.
 
-Figure 4: 
+Figure 4: Factors regarding whether a song is a hit or not
+
 For this figure we identified the top 5 percent of popular songs. Those top 5 percent were the threshold for whether a song is a hit or not. We see that energy and danceability are good factors in whether or not a song will be a hit.
 
-Figure 5: 
+Figure 5: Major vs Minor Songs histogram
 
 This figure very clearly shows that major songs contribute more to a song being a hit than minor songs.
 
-Figure 6: 
-
+Figure 6: Model results
 
 Finally, in reference to our research question: Can we calculate the popularity of a song based on factors like key signature, tempo, and other relevant variables? When training a regression model to predict popularity from audio features, we achieved an R² of 0.179. While this may seem low at first glance, it is actually consistent with expectations for this type of prediction. Song popularity is influenced by many external factors including marketing, artist visibility, cultural trends, and platform promotion that are not captured in the audio features alone. As a result, we should not expect acoustic attributes to fully explain popularity.
 
