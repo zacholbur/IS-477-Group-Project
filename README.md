@@ -111,11 +111,11 @@ Overall, this project has a lot of potential and is definitely something that sh
 
 **Scripts:** The scripts folder contains all of the python scripts called during our automated reproduction of our workflow.
 
-**Raw Data Files:** Our data is collected programmatically using the Kaggle API for the Million Song dataset. The Spotify dataset is also aquried programatically from huggingface using pandas. The primary source of the Spotify data is the Spotify Web API. Additionally, both raw data CSVs can be found in the data/raw directory. 
+**Raw Data Files:** Our data is collected programmatically using the Kaggle API for the Million Song dataset. The Spotify dataset is also aquried programatically from huggingface using pandas. The primary source of the Spotify data is the Spotify Web API. Additionally, both raw data CSVs can be found in the data/raw directory of our repository, but will not be carried over when attemping to reproduce since they have been placed in the .gitignore.
 
 **Software Dependencies:** There is a requirements.txt file in our root directory that contains all software dependencies. This requirements.txt file is called on during our automated workflow.
 
-**Results:** Our results can be found at this [link](https://uofi.box.com/s/3xwnbbr2sybu0wjdhbgxqfzz4rng4ba8). Additionally, results are stored in the results folder out of our repository in the event users are unable to obtian them via the link. Once obtained using the link, please remove the files currently in the results folder and replace them with the results from the link.
+**Results:** Our results can be found at this [link](https://uofi.box.com/s/3xwnbbr2sybu0wjdhbgxqfzz4rng4ba8). Additionally, results are stored in the results folder, but this path is included in the .gitignore and will not be carried over. As a result, once obtained using the link, please place the results in a folder titles "results", just as it appears in our repository.
 
 ### Reproduction Instructions
 As stated above, to reproduce our results, users should navigate to  “workflow/7_automated_reproducing.ipynb” and carry out the follow steps:
