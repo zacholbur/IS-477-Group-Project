@@ -68,6 +68,7 @@ Figure 1: A correlation heatmap
 This figure helps us understand the correlation between all of the relevant musical features from our dataset. As we can see from this figure, loudness and energy are highly correlated, valence (happiness or sadness) and danceability are highly correlated and liveness and speechiness are highly correlated. Artist familiarity and hotness are also highly correlated. Understanding these correlations helps us read the rest of our results in a smarter way. Seeing that features like loudness and energy or valence and danceability move together suggests they’re capturing similar musical qualities. Knowing this early on lets us avoid redundant features in our models and focus on the variables that actually add new information when we try to predict song popularity.
 
 Figure 2: Scatterplot relationships between variables
+![Scatterplot](results/popularity_scatter.png)
 
 This figure is less helpful in our analysis. We see a lot more randomness in the relationships between the variables. Any conclusions from this figure can only be defined as assumptions or inferences and not fact.
 
