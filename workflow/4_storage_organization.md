@@ -21,7 +21,7 @@ Our workflow directory contains detailed information regarding our end-to-end pr
 As the name suggests, our data directory contains the relevant data files for our project. This directory is made up of two sub directories, titled raw and processed. “Data/raw” contains our acquired datasets, in the form of two CSV files, one for the Spotify dataset and the other for the Million Song Dataset. Additionally, “Data/raw” contains two textfiles that store the results of our SHA-256 hashing our datasets to serve as a reference to be checked against during when our workflow is reproduced. “Data/processed” contains three CSV files, which contain our cleaned Spotify dataset, cleaned Million Song dataset, and integrated dataset. Additionally, the data directory contains a description and data dictionary for our integrated dataset.
 
 #### Results 
-The results directory contains the results of our data analysis. This is stored in the form of three vizualtions and two text files. One text file is summary information related to hit songs, and the other is the statsitical results of our model.
+The results directory contains the results of our data analysis. This is stored in the form of four vizualtions and two text files. One text file is summary information related to hit songs, and the other is the statsitical results of our model.
 
 #### Scripts 
 The scripts directory contains the python scripts related to each stage of our workflow. The purpose of these scripts is that they are called and run by our snakefile in order to reproduce our workflow in an automated manner.
