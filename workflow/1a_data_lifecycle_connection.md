@@ -1,4 +1,9 @@
-Data One Data Lifecycle:
+## Data Lifecycle Connection
+
+### Reference Image
+![](1b_data_lifecycle_reference_image.png)
+
+### Connection to our Project
 
 Our overall project is related to this lifecycle in many ways. First of all, 
 we were able to formulate our plan using the lesson requirements as well as our proposal and status report assignments. 
