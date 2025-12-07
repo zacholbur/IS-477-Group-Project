@@ -1,4 +1,4 @@
-# Project Title
+# Predicting Song Popularities Using Spotify and Million Song Data
 
 ## Contributors
 - Dan Feder (djfeder2)
