@@ -120,9 +120,9 @@ Overall, this project has a lot of potential and is definitely something that sh
 ### Reproduction Instructions
 As stated above, to reproduce our results, users should navigate to  “workflow/7_automated_reproducing.ipynb” and carry out the follow steps:
 
-1.  Optional: Run "Install Snakemake" Cell: If you do not have snakemake installed yet, run this code block in order to install it.
-2. Run "Test Reproduce" Cell: This code cell is designed to run the Snakefile and confirm that it is working before delete all the files. To complete this step, you will need to obtain and enter a Kaggle API token. Below these steps are instructions for how to do that. When you run the cell, ensure that you are getting the output "Nothing to be done (all requested files are present and up to date)" before moving forward. 
-3. Run "Delete Output and Reproduce Results" Cell:  Assuming step 2 was successful, you can now run the third code cell. This will delete all outputs and then recreate our workflow. After it is finished running, you should be able to confirm that the results match our results.
+1) **Optional: Run "Install Snakemake" Cell:** If you do not have snakemake installed yet, run this code block in order to install it.
+2) **Set up Kaggle API:** Follow the instructions below to set up the Kaggle API. 
+3) **Run "Delete Output and Reproduce Results" Cell :** You can now run the third code cell. This will delete all outputs and then recreate our workflow. After it is finished running, you should be able to confirm that the results match our results in stored at box link. If you cannot get this to complete after multiple attempts, please move to the contignecy plan at the bottom of this notebook.
 
 
 Kaggle API Setup Instructions: 
