@@ -1,0 +1,16 @@
+# acquisition.py (pandas also used in cleaning.py)
+pandas         
+kaggle           
+huggingface_hub  
+
+
+
+# integration.py
+recordlinkage   
+
+# analysis.py 
+numpy             
+matplotlib==3.8.4  
+matplotlib-inline 
+seaborn           
+scikit-learn     
