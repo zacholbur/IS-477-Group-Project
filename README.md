@@ -136,11 +136,20 @@ Kaggle API Setup Instructions:
 All of this information is contained in “reproducing.ipynb”. If for any reason this process fails, there is a secondary method of partial reproduction placed in the notebook.
 
 ## References
+
+Olbur, Z & Feder, D. (2025). IS-477-Group-Project [Code repository]. GitHub. https://github.com/zacholbur/IS-477-Group-Project
+
 Hugging Face. (2025). Spotify Tracks Dataset [Data set]. 
 https://huggingface.co/datasets/maharshipandya/spotify-tracks-dataset
 
 Kaggle. (2022). Million Song Dataset (subset) [Data set]
 https://www.kaggle.com/datasets/sansastark/subset-of-the-million-song-dataset
+
+Matplotlib Development Team. (2024). Matplotlib. https://matplotlib.org/
+
+Microsoft. (n.d.). Visual Studio Code. Microsoft. https://code.visualstudio.com/
+
+Record Linkage Toolkit Development Team. (2024). recordlinkage. https://recordlinkage.readthedocs.io/
 
 Spotify AB. (2025, May 15). Spotify Developer Terms.
 https://developer.spotify.com/terms
