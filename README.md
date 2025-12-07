@@ -90,5 +90,35 @@ Finally, in reference to our research question: Can we calculate the popularity 
 ## Future Work
 
 ## Reproducing
+### Location of Relevant Items
+**Results Reproduction:** In the workflow directory, there is a notebook titled “reproducing.ipynb”. To reproduce our results, users should navigate to that notebook. This notebook is sufficient for reproducing our results. The notebook interacts with the following items.
+
+**Scripts:** The scripts folder contains all of the python scripts called during our automated reproduction of our workflow.
+
+**Raw Data Files:** Our data is collected programmatically using the Kaggle API for the million song dataset. Additionally, both raw data CSVs can be found in the data/raw directory. 
+
+**Software Dependencies:** There is a requirements.txt file in our root directory that contains all software dependencies. This requirements.txt file is called on during our automated workflow.
+
+**Results:** Our results can be found at this link. Additionally, results are stored in the results folder out of our repository. 
+
+### Reproduction Instructions
+As stated above, to reproduce our results, users should navigate to  “workflow/reproducing.ipynb” and carry out the follow steps:
+
+1.  Optional: Run "Install Snakemake" Cell: If you do not have snakemake installed yet, run this code block in order to install it.
+2. Run "Test Reproduce" Cell: This code cell is designed to run the Snakefile and confirm that it is working before delete all the files. To complete this step, you will need to obtain and enter a Kaggle API token. Below these steps are instructions for how to do that. When you run the cell, ensure that you are getting the output "Nothing to be done (all requested files are present and up to date)" before moving forward. 
+3. Run "Delete Output and Reproduce Results" Cell:  Assuming step 2 was successful, you can now run the third code cell. This will delete all outputs and then recreate our workflow. After it is finished running, you should be able to confirm that the results match our results.
+
+
+Kaggle API Setup Instructions: 
+1. Go to your preferred browser, navigate to kaggle.com, and sign in.
+2. Navigate to setting by selecting your profile icon in the top right corner and selecting settings.
+3. Under the account page of settings (the default page), scroll down to the API section and click "generate new token"
+4. Give the token a name and select generate.
+5. On your screen, you should see a field labeled "API Token:. Copy this field.
+6. Paste the API token in the code block below in place of "enter_key_here". Make sure the token is surrounded by quotes ("token")
+7. Paste your username in the cell below where it says "enter_username_here", again surrounded by quotes. Your username can be seen in the top right corner on the Kaggle settings page.
+8. With the token and username entered, run the code cell below. Now, you should be ready to use the Kaggle API
+
+All of this information is contained in “reproducing.ipynb”. If for any reason this process fails, there is a secondary method of partial reproduction placed in the notebook.
 
 ## References
